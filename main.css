@@ -52,7 +52,7 @@ input, select {
     color: #161616;
     font-size: 1.2em;
     background-color: #ffffffe8;
-    width: 8%;
+    width: 150px;
     box-sizing: border-box;
     padding-inline: 0.5em;
     padding-block: 0.7em;
@@ -178,3 +178,5 @@ button:hover .circle .icon.arrow {
 button:hover .button-text {
  color: #fff;
 }
+
+
