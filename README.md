@@ -2,7 +2,7 @@
 
 
 
-deployment : https://tomaszalazar.github.io/Proyecto-JavaScript-Zalazar-Tomas/
+deployment :  https://tomaszalazar.github.io/TomasZalazar-JavaScript/
 
 
-Repositorio : https://github.com/TomasZalazar/Proyecto-JavaScript-Zalazar-Tomas.git
+Repositorio : https://github.com/TomasZalazar/TomasZalazar-JavaScript.git
