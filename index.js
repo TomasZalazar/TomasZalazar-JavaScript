@@ -26,20 +26,20 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     function calcularPrima(edad, tipo) {
-        if (edad >= 1 && edad <= 17) {
-            return 1000; // Prima para edades de 1 a 17
-        } else if (edad >= 18 && edad <= 30) {
-            return 2000; // Prima para edades de 18 a 30
-        } else if (edad >= 31 && edad <= 100) {
-            return 3500; // Prima para edades de 31 a 100
+        if (edad >= 1 && edad <= 100) {
+            const totalPrima = 100*edad*tipo
+            return totalPrima
         }else if(edad > 100){
-            alert('Ingresa una edad de 0 a 100')
+            alert('Ingresa una edad de 1 a 100')
         }
-        return 0;
+    return 0
     }
+    
+
 
     function mostrarResultado(prima) {
         const resultadoDiv = document.getElementById("resultado");
         resultadoDiv.textContent = `La prima de seguro es: $${prima}`;
     }
 });
+
